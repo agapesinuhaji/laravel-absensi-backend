@@ -21,5 +21,17 @@ class DatabaseSeeder extends Seeder
             'email' => 'priahitam@example.com',
             'password' => Hash::make('12345678'),
         ]);
+
+
+        \App\Models\Company::create([
+            'name' => 'PT. Pria Hitam',
+            'email' => 'user@priahitam.com',
+            'address' => 'Jl. Pembangunan No. 12a, Tambak Lau Mulgap II, Kec. Berastagi, Kab. Karo, Sumatera Utara 22152',
+            'latitude' => '-7.747033',
+            'longitude' => '110.355398',
+            'radius_km' => '0.5',
+            'time_in' => '08:00',
+            'time_out' => '17:00',
+        ]);
     }
 }
