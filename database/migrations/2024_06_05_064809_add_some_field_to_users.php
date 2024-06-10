@@ -16,7 +16,7 @@ return new class extends Migration
             $table->string('position')->nullable();
             $table->string('department')->nullable();
             $table->text('face_embedding')->nullable();
-            $table->string('img_url')->nullable();
+            $table->string('image_url')->nullable();
         });
     }
 
@@ -30,7 +30,7 @@ return new class extends Migration
             $table->dropColumn('position');
             $table->dropColumn('department');
             $table->dropColumn('face_embedding');
-            $table->dropColumn('img_url');
+            $table->dropColumn('image_url');
         });
     }
 };
