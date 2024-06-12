@@ -120,6 +120,7 @@
                                     <div class="detail-value">$92,142</div>
                                     <div class="detail-name">This Year's Sales</div>
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -175,6 +176,30 @@
                                     <div class="media-body">
                                         <div class="float-right">21m</div>
                                         <div class="media-title">Alfa Zulkarnain</div>
+                                        <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla.
+                                            Nulla vel metus scelerisque ante sollicitudin.</span>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <img class="rounded-circle mr-3"
+                                        width="50"
+                                        src="{{ asset('img/avatar/avatar-1.png') }}"
+                                        alt="avatar">
+                                    <div class="media-body">
+                                        <div class="text-primary float-right">Now</div>
+                                        <div class="media-title">Farhan A Mujib</div>
+                                        <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla.
+                                            Nulla vel metus scelerisque ante sollicitudin.</span>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <img class="rounded-circle mr-3"
+                                        width="50"
+                                        src="{{ asset('img/avatar/avatar-1.png') }}"
+                                        alt="avatar">
+                                    <div class="media-body">
+                                        <div class="text-primary float-right">Now</div>
+                                        <div class="media-title">Farhan A Mujib</div>
                                         <span class="text-small text-muted">Cras sit amet nibh libero, in gravida nulla.
                                             Nulla vel metus scelerisque ante sollicitudin.</span>
                                     </div>
